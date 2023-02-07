@@ -24,11 +24,11 @@ Agents: id , agent name, custom id(we newly added) ...
 
 Shifts : id , facility id agent id , booking time, ...
 
-1. Add custom id field to Agents Table in database
+1. We should add custom id field to Agents Table in database when we add new agent.
 
 2. Add custom id of agent to response of getShiftsByFacility function
 
-   We should modify query to fetch from database
+   We should modify query to fetch from database.
 
 3. Add custom id of agent to response of generateReport function
 
